@@ -1,0 +1,17 @@
+{
+  "name": "underscore.get",
+  "version": "0.2.5",
+  "description": "get data with dot notation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "underscore",
+    "get",
+    "dot",
+    "notation"
+  ],
+  "author": "Narek Hakobyan <narek.hakobyan.07@gmail.com>",
+  "license": "ISC"
+}
