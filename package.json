@@ -1,6 +1,6 @@
 {
   "name": "underscore.get",
-  "version": "0.2.5",
+  "version": "0.2.8",
   "description": "get data with dot notation",
   "main": "index.js",
   "scripts": {

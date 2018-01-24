@@ -1,7 +1,7 @@
-#Underscore.get
+##Underscore.get
 
 
-## Usage
+### Usage
 
 ### For Node.js, Browserify and Webpack
 
@@ -24,3 +24,5 @@ const getMixin = require("underscore.get");
 _.mixin(getMixin);
 _.get(obj, 'a[0].b', defaultValue);
 ```
+
+##Don't forget to star the [github repository!](https://github.com/NarHakobyan/underscore.get)
