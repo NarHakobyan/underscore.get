@@ -1,6 +1,7 @@
 var ug = require("./index.js");
 (function(){
-    if(window && window._){
+    console.log(self);
+    if(self && self.document && self._){
         Object.keys(ug).forEach(function(g){
             global._[g] = ug[g];
         });
