@@ -1,7 +1,4 @@
-describe("Test that the api still returns what is expected of it, http://cedsci-web3.dev.ditd.census.gov:8080", function () {
-    this.timeout(10000);
-
-    describe("test globally adding underscore.get", function () {
+ describe("test globally adding underscore.get", function () {
         it("_.get should be available and work as expected", function (done) {
             "use strict";
 
@@ -15,5 +12,3 @@ describe("Test that the api still returns what is expected of it, http://cedsci-
             done();
         })
     });
-});
-
