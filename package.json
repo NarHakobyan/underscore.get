@@ -1,10 +1,11 @@
 {
   "name": "underscore.get",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "get data with dot notation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "open the mochaTest.html in the browser",
+    "build-global": "webpack ./index-global.js -o ./dist/global-bundle.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,11 @@
     "notation"
   ],
   "author": "Narek Hakobyan <narek.hakobyan.07@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.1.0",
+    "underscore": "^1.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^3.0.7"
+  }
 }
