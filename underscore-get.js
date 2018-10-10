@@ -3,7 +3,7 @@ module.exports = function get(obj, desc, value) {
 
   while (arr.length && obj) {
     var comp = arr.shift();
-    var match = new RegExp("(.+)\\[([0-9]*)\\]").exec(comp);
+    var match = /(.+)\[([0-9]*)\]/.exec(comp);
 
     // handle arrays
     if ((match !== null) && (match.length == 3)) {
